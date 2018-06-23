@@ -18,6 +18,7 @@ public class HelloConsumerServiceImpl implements HelloConsumerService {
 
     @Override
     public void helloConsumer() {
+        System.out.println("服务调用成功！");
         helloService.hello();
     }
 }
